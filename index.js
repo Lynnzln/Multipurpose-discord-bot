@@ -140,6 +140,9 @@ function requirehandlers() {
     });
 } requirehandlers();
 
+//Keep Alive 24/7
+const leep_alive = require('./keep_alive.js')
+
 
 /**********************************************************
  * @param {9} Login_to_the_Bot
